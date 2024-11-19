@@ -71,6 +71,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # react-shop-well
 
+
 ## Steps to Install and Run
 
 ###  Clone the Repository
@@ -137,10 +138,8 @@ Implementation:
 Used CSS :hover selectors to create smooth hover effects for product cards and buttons.
 Added subtle transitions to product images and buttons, making the UI feel more interactive and responsive.
 
-Screenshots of the Application
 
 
-<img width="1440" alt="Screenshot 2024-11-19 at 20 29 29" src="https://github.com/user-attachments/assets/5528a391-1288-4e5c-9534-18833fc9b514">
 
 
 
@@ -179,49 +178,9 @@ Screenshots of the Application
 
 
 
-<img width="1439" alt="Screenshot 2024-11-19 at 20 30 07" src="https://github.com/user-attachments/assets/929df017-f5eb-41e5-a7d7-3d2a58297007">
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<img width="1439" alt="Screenshot 2024-11-19 at 20 30 26" src="https://github.com/user-attachments/assets/53f3a16a-50a2-4ce0-998f-fa8bdeb5dcbb">
 
 
 
