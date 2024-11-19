@@ -137,3 +137,53 @@ Feature: Added hover effects and transitions to enhance the user experience.
 Implementation:
 Used CSS :hover selectors to create smooth hover effects for product cards and buttons.
 Added subtle transitions to product images and buttons, making the UI feel more interactive and responsive.
+
+
+Screenshots of the Application
+
+![Product Screenshot](https://github.com/Aashana101/react-shop-well/blob/main/public/Screenshot%202024-11-19%20at%2020.29.29.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+![Product Screenshot](https://github.com/Aashana101/react-shop-well/blob/main/public/Screenshot%202024-11-19%20at%2020.30.07.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+![Product Screenshot](https://github.com/Aashana101/react-shop-well/blob/main/public/Screenshot%202024-11-19%20at%2020.30.26.png)
+
+
+
+
+
+
+
+
