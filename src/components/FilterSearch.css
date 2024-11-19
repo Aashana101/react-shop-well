@@ -1,0 +1,20 @@
+.filter-search {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 20px;
+  width: 100%;
+}
+
+.filter-search input,
+.filter-search select {
+  padding: 8px;
+  font-size: 16px;
+  width: 48%;
+}
+.filter-search input {
+  margin-left: -20px; /* Decrease left margin of the search input */
+}
+.filter-search select {
+  margin-right: 16px; /* Adds space to the right of the category select */
+}

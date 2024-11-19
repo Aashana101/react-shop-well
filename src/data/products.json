@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Smartphone",
+    "category": "Electronics",
+    "price": 699,
+    "description": "A high-quality smartphone with a sleek design and advanced features.",
+    "image": "https://m.media-amazon.com/images/I/81ndCd07RuL._AC_UY436_FMwebp_QL65_.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Running Shoes",
+    "category": "Footwear",
+    "price": 120,
+    "description": "Comfortable and durable running shoes for all terrains.",
+    "image": "https://m.media-amazon.com/images/I/71yoazshAIL._AC_UL640_FMwebp_QL65_.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Backpack",
+    "category": "Accessories",
+    "price": 50,
+    "description": "Spacious and stylish backpack for everyday use.",
+    "image": "https://m.media-amazon.com/images/I/81ErRYBSLmL._AC_UY436_FMwebp_QL65_.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Dress",
+    "category": "Dress",
+    "price": 100,
+    "description": "A Comfortable and pretty dress.",
+    "image": "https://m.media-amazon.com/images/I/617OU2efLJL._AC_UL640_FMwebp_QL65_.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Laptop",
+    "category": "Electronics",
+    "price": 1899,
+    "description": "A high-quality Laptop with a sleek design and advanced features.",
+    "image": "https://m.media-amazon.com/images/I/51aoXk4rzXL._AC_UY436_FMwebp_QL65_.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Bracelet",
+    "category": "Accessories",
+    "price": 450,
+    "description": "Beautiful and elegant hand bracelet.",
+    "image": "https://m.media-amazon.com/images/I/51WkQYLZUsL._AC_UL640_FMwebp_QL65_.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Dress",
+    "category": "Dress",
+    "price": 450,
+    "description": "A Comfortable and pretty dress.",
+    "image": "https://m.media-amazon.com/images/I/61zdrxfVMOL._AC_UL640_FMwebp_QL65_.jpg"
+  },
+  {
+    "id": 8,
+    "name": "T-Shirt",
+    "category": "Dress",
+    "price": 350,
+    "description": "A Comfortable and daily wear",
+    "image": "https://m.media-amazon.com/images/I/61tM2jn7LQL._AC_UL640_FMwebp_QL65_.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Bracelet",
+    "category": "Accessories",
+    "price": 9050,
+    "description": "Beautiful and elegant hand bracelet..",
+    "image": "https://m.media-amazon.com/images/I/51da1HSwecL._AC_UL640_FMwebp_QL65_.jpg"
+  }
+]

@@ -1,38 +1,187 @@
 .App {
-  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.filter-search {
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.product-list {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 20px;
+}
+
+
+.product-details {
+  margin-top: 20px;
+}
+.product-details {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.product-details-image {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: contain;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+.product-buttons {
+  display: flex;
+  justify-content: center; /* Align buttons in the center horizontally */
+  gap: 16px; /* Add space between the buttons */
+  margin-top: 16px; /* Add some margin above the button group */
+}
+
+.add-to-cart-buttons,
+.back-button {
+  padding: 10px 20px; /* Add padding for a better look */
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.add-to-cart-buttons {
+  background-color: #4caf50; /* Green background for Add to Cart */
   color: white;
+  transition: background-color 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
+.add-to-cart-buttons:hover {
+  background-color: #45a049;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.back-button {
+  background-color: #f44336; /* Red background for Back */
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #d32f2f;
+}
+
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+/* Header container styling */
+/* Header Styles */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8f9fa; /* Light background color */
+  padding: 10px 20px;        /* Spacing around header content */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  position: sticky;
+  top: 0;                    /* Make header stick to the top on scroll */
+  z-index: 1000;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: 50px;               /* Adjust logo size */
+  height: 50px;
+  margin-right: 10px;
+}
+
+.header-title {
+  font-size: 24px;           /* Larger font size for title */
+  font-weight: bold;
+  color: #007bff;            /* Blue accent for title */
+}
+
+.header-nav {
+  display: flex;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;          /* Remove default list styling */
+  gap: 20px;                 /* Space between navigation links */
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  display: flex;
+  align-items: center; /* Center the links vertically */
+  margin-top: 5px;     /* Adjust vertical position */
+}
+
+.nav-links li a {
+  text-decoration: none;     /* Remove underline */
+  font-size: 16px;           /* Font size for links */
+  color: #555;               /* Neutral link color */
+  font-weight: 500;
+  transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.nav-links li a:hover {
+  color: #007bff;            /* Highlight color on hover */
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;   /* Stack header sections vertically */
+    align-items: center;
+    padding: 15px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .nav-links {
+    flex-direction: column;   /* Stack navigation links */
+    gap: 10px;
   }
+}
+.cart-container {
+  position: relative; /* Position relative to allow absolute positioning of the badge */
+}
+
+
+/* Style for the cart badge */
+.cart-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: gray;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.cart-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  padding: 5px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.cart-btn:hover {
+  transform: scale(1.1); /* Enlarge slightly on hover */
+}
+
+.cart-image {
+  height: 30px;
+  width: 30px;
 }
