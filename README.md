@@ -138,30 +138,3 @@ Feature: Added hover effects and transitions to enhance the user experience.
 Implementation:
 Used CSS :hover selectors to create smooth hover effects for product cards and buttons.
 Added subtle transitions to product images and buttons, making the UI feel more interactive and responsive.
-
-<<<<<<< HEAD
-Screenshots of the Application:
-
-Product List Page with Sorting Option
-<img src="file:///Users/aashanasharma/Desktop/Screenshot%202024-11-19%20at%2020.29.29.png" alt="Screenshot" width="600" height="400" />
-
-Cart Functionality with Item Count
-<img src="file:///Users/aashanasharma/Desktop/Screenshot%202024-11-19%20at%2020.30.07.png" alt="Screenshot" width="600" height="400" />
-
-Hover Effects on Product Cards
-<img src="file:///Users/aashanasharma/Desktop/Screenshot%202024-11-19%20at%2020.30.26.png" alt="Screenshot" width="600" height="400" />
-=======
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> db1f7b49003c7e12373b8b62bd648d404ba0cc69
