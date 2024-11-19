@@ -69,12 +69,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-
 # react-shop-well
+
 
 ## Steps to Install and Run
 
-### 1. Clone the Repository
+###  Clone the Repository
+
 Open a terminal and run:
 
 ```bash
@@ -138,6 +139,7 @@ Implementation:
 Used CSS :hover selectors to create smooth hover effects for product cards and buttons.
 Added subtle transitions to product images and buttons, making the UI feel more interactive and responsive.
 
+<<<<<<< HEAD
 Screenshots of the Application:
 
 Product List Page with Sorting Option
@@ -148,3 +150,18 @@ Cart Functionality with Item Count
 
 Hover Effects on Product Cards
 <img src="file:///Users/aashanasharma/Desktop/Screenshot%202024-11-19%20at%2020.30.26.png" alt="Screenshot" width="600" height="400" />
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> db1f7b49003c7e12373b8b62bd648d404ba0cc69
